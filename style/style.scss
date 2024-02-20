@@ -112,3 +112,406 @@ body {
         }
     }
 }
+
+// grow section ---------------------------------
+.grow {
+    width: 100%;
+    height: 636px;
+    padding: 0 0 0 0;
+    background-color: #2A7CC7;
+
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+        width: 75%;
+        height: 100%;
+        margin: 0 0 0 15%;
+        padding: 0 5% 0 0;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+
+        &-block {
+            display: flex;
+            flex-direction: column;
+            row-gap: 24px;
+
+            &-up {
+                margin: 0;
+                font-size: 16px;
+                font-weight: 700;
+                color: #fff;
+            }
+
+            &-head {
+                margin: 0;
+                font-size: 40px;
+                font-weight: 700;
+                color: #fff;
+            }
+
+            &-paragraph {
+                max-width: 440px;
+                margin: 0;
+                font-size: 14px;
+                font-weight: 400;
+                color: #fff;
+            }
+
+            &-button {
+                width: 130px;
+                height: 52px;
+                padding: 15px 40px;
+                margin: 0;
+                background-color: #2A7CC7;
+                border: 1px solid #FAFAFA;
+                color: #fff;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__right {
+        width: 590px;
+    }
+}
+
+
+//----------------- zeta footer -------------------------
+.footer {
+    width: 100%;
+    padding: 0;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+
+    // zeta up
+    &-up {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        height: 138px;
+        margin: 0px auto;
+        border-bottom: 1px solid #cdcdcd;
+
+        &-paragraph {
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 57px;
+        }
+
+        &-list {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0 62px;
+            height: 24px;
+            margin: 57px 0;
+            width: 112px;
+
+            a {
+                margin: 0;
+                width: 24px;
+            }
+        }
+    }   
+
+    // zeta center 
+    &-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 70%;
+        
+        margin: 0 auto;
+        padding-top: 50px;
+        background-color: #fff;
+
+
+
+        &-company {
+            height: 170px;
+            width: 148px;
+
+            &-head {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+            }
+
+            &-list {
+                text-align: left;
+                padding: 0;
+                font-size: 14px;
+                line-height: 24px;
+
+                li {
+                    list-style: none;
+                    text-decoration: none;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        &-legal {
+            height: 170px;
+            width: 148px;
+
+            &-head {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+            }
+
+            &-list {
+                text-align: left;
+                padding: 0;
+                font-size: 14px;
+                line-height: 24px;
+
+                li {
+                    list-style: none;
+                    text-decoration: none;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        &-features {
+            height: 170px;
+            width: 148px;
+
+            &-head {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+            }
+
+            &-list {
+                text-align: left;
+                padding: 0;
+                font-size: 14px;
+                line-height: 24px;
+
+                li {
+                    list-style: none;
+                    text-decoration: none;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        &-resources {
+            height: 170px;
+            width: 148px;
+
+            &-head {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+            }
+
+            &-list {
+                text-align: left;
+                padding: 0;
+                font-size: 14px;
+                line-height: 24px;
+
+                li {
+                    list-style: none;
+                    text-decoration: none;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        &-touch {
+            height: 170px;
+            width: 320px;
+
+
+
+            &-head {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+            }
+
+            &-subscribe {
+                display: flex;
+                width: 321px;
+                height: 58px;
+
+                &-left {
+                    width: 204px;
+                    height: 56px;
+                    background-color: #F9F9F9;
+                    padding: 0;
+                    margin: 0;
+                    text-indent: 5px;
+                    border: 1px solid #E6E6E6;
+
+                    &-text {
+                        width: 95%;
+                        height: 58px;
+                        margin: 0;
+                        padding: 0;
+                        border: none;
+                        background-color: #F9F9F9;
+                        color: #737373;
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+                }
+            
+                &-right {
+                    width: 113px;
+                    padding: 0;
+                    margin: 0;
+                    border: none;
+                    background-color: #23A6F0;
+                    color: white;
+                    border-radius: 0 5px 5px 0;
+                    cursor: pointer;
+                }
+            }
+
+            &-paragraph {
+                height: 28px;
+                font-size: 12px;
+                color: #737373;
+            }
+        }
+    }
+
+    // zeta down
+    &-down {
+        text-align: left;
+        width: 70%;
+        height: 49px;
+        padding-top: 25px;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: 700;
+        color: #737373;
+
+        // display: flex;
+        // justify-content: space-between;
+
+    }
+
+}
+
+// -----------------  meet section ---------------------
+
+.meet {
+    width: 70%;
+    height: 826px;
+    padding: 0 15%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 112px;
+    background-color: #ffffff;
+
+
+    &__up {
+        width: 100%;
+
+        &-head {
+            font-size: 40px;
+            font-weight: 700;
+            color: #252B42;
+        }
+
+        &-paragraph {
+            max-width: 469px;
+            font-size: 14px;
+            font-weight: 400;
+            margin: 0 auto;
+            color: #252B42;
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    
+        &-card {
+            width: 329px;
+            height: 383px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        
+                    
+            &-up {
+
+
+                &-img {
+                    width: 329px;
+                }
+    
+            }
+
+
+            &-down {
+                width: 329px;
+                height: 152px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 10px;
+
+
+                &-head {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #252B42;
+                }
+
+                &-paragraph {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #737373;
+                }
+
+                &-list {
+                    margin: 0;
+
+                    width: 112px;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        
+        }
+    }
+}
